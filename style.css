@@ -20,8 +20,8 @@ html {
 
 .link {
     position: absolute;
-    top: 26px;
-    right: 30px;
+    top: 3%;
+    right: 4%;
 }
 
 .link a {
@@ -37,11 +37,11 @@ html {
 
 .profile {
     background-color: lightgray;
-    width: 350px;
+    width: 18.4%;
     height: 350px;
     position: absolute;
     top: 100px;
-    right: 75px;
+    right: 4%;
 }
 
 .profile img {
@@ -69,11 +69,11 @@ html {
 
 .side-right {
     background: lightgray;
-    width: 350px;
+    width: 18.4%;
     height: 600px;
     position: absolute;
     top: 480px;
-    right: 75px;
+    right: 4%;
 }
 
 .side-right-naiyo {
@@ -99,8 +99,8 @@ html {
     background: lightgray;
     position: absolute;
     top: 100px;
-    left: 70px;
-    width: 1350px;
+    left: 5%;
+    width: 71%;
     height: 2000px;
 }
 
