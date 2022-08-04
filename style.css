@@ -47,26 +47,29 @@ html {
 .profile img {
     position: absolute;
     top: 15px;
-    left: 20px;
+    left: 5%;
     width: 87%;
     height: 55%;
 }
 
 .profile h2 {
     position: absolute;
-    top: 225px;
-    left: 20px;
+    top: 63%;
+    left: 5%;
 }
 
 .profile p {
     position: absolute;
-    top: 260px;
-    left: 20px;
+    top: 74%;
+    left: 5%;
 }
 
 .profile a {
     color: black;
     text-decoration: none;
+    position: absolute;
+    top: 95%;
+    left: 5%;
 }
 
 .side-right {
