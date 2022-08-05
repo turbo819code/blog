@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>turboのブログ  TOP</title>
-        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>turboのブログ  TOP</title>
     </head>
     <body>
         <!--MENU-->
@@ -21,11 +23,14 @@
         </div>
 
         <!--profile-->
-        <div class="profile">
-            <img src="7.png" alt="profile-image">
-            <h2>turbo</h2>
-            <p>はじめまして!  turboです!<br>プラモデル製作、ブログ等をしています。<br><a href="#">→私について詳しくはコチラから</a></p>
+        <div class="oya">
+            <div class="profile">
+                <img src="7.png" alt="profile-imge" >
+                <h2>turbo</h2>
+                <p>はじめまして!  turboです!<br>プラモデル製作、ブログ等をしています。<br><a href="#">→私について詳しくはコチラから</a></p>
+            </div>
         </div>
+        
 
         <!--右サイド-->
         <div class="side-right">
@@ -49,8 +54,9 @@
         </div>
 
         <!--top button-->
-        <div class="to-top">
-            <a href="#"　class="to-top">↑</a>
-        </div>
+        <button id="btn"><i class="fas fa-arrow-up"></i></button>
+
+        <!--java script-->
+        <script src="index.js"></script>
     </body>
 </html>
