@@ -121,6 +121,10 @@
     display: none;
 }
 
+i {
+    color:white;
+}
+
 .back {
     background: lightgray;
     position: absolute;
